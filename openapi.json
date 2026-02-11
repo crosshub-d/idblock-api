@@ -1042,12 +1042,21 @@
   },
   "info": {
     "title": "Crosshub API",
-    "description": "Crosshub API - Blockchain-powered identity and site visit tracking platform",
+    "description": "Crosshub API",
     "version": "1.0",
     "contact": {}
   },
   "tags": [],
-  "servers": [],
+  "servers": [
+    {
+      "url": "https://api.crosshub.id",
+      "description": "Production"
+    },
+    {
+      "url": "http://localhost:8989",
+      "description": "Local Development"
+    }
+  ],
   "components": {
     "securitySchemes": {
       "cookie": {
@@ -1059,25 +1068,9 @@
         "scheme": "bearer",
         "bearerFormat": "JWT",
         "type": "http"
-      },
-      "x-api-key": {
-        "type": "apiKey",
-        "in": "header",
-        "name": "x-api-key"
       }
     },
     "schemas": {
-      "ApiDataResponse": {
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "object"
-          }
-        },
-        "required": [
-          "data"
-        ]
-      },
       "LoginResponse": {
         "type": "object",
         "properties": {
