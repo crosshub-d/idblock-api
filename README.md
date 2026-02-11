@@ -45,7 +45,7 @@ git push origin HEAD:gh-pages --force
 
 ## Stats
 
-- **Endpoints**: 39
+- **Endpoints**: 38
 - **Tags**: N/A
 
-Generated: 2026-02-11T09:10:04.784Z
+Generated: 2026-02-11T10:02:17.050Z
