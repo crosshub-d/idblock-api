@@ -4,9 +4,9 @@ Static API documentation for Crosshub API v1.0.
 
 ## Quick Links
 
-- **Live API**: https://api.crosshub.id
-- **Swagger UI**: https://api.crosshub.id/swagger
-- **Scalar UI**: https://api.crosshub.id/scalar
+- **Live API**: https://api.idblock.ai
+- **Swagger UI**: https://api.idblock.ai/swagger
+- **Scalar UI**: https://api.idblock.ai/scalar
 
 ## Files
 
@@ -48,4 +48,4 @@ git push origin HEAD:gh-pages --force
 - **Endpoints**: 38
 - **Tags**: N/A
 
-Generated: 2026-02-11T10:10:50.069Z
+Generated: 2026-02-11T10:37:44.073Z

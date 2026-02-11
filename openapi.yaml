@@ -638,10 +638,8 @@ info:
   contact: {}
 tags: []
 servers:
-  - url: https://api.crosshub.id
+  - url: https://api.idblock.ai
     description: Production
-  - url: http://localhost:8989
-    description: Local Development
 components:
   securitySchemes:
     cookie:
